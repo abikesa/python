@@ -3,7 +3,7 @@
 
 title: Run Python
 author: ADM
-year: "2025"
+copyright: "2025"
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png
 
 # Force re-execution of notebooks on each build.
