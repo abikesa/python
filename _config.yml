@@ -6,6 +6,32 @@ author: ADM
 copyright: "2025"
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png
 
+# Sphinx configuration options directly in _config.yml
+sphinx:
+  config:
+    project: "Run Python"
+    author: "ADM"
+    release: "2025"
+    extensions:
+      - myst_parser
+      - sphinx.ext.autodoc
+      - sphinx.ext.napoleon
+      - sphinx.ext.viewcode
+      - sphinx.ext.todo
+      - sphinx.ext.githubpages
+      - sphinxcontrib.bibtex
+      - sphinx_multitoc_numbering
+      - myst_nb
+    suppress_warnings:
+      - etoc.toctree
+      - epub.unknown_project_files
+      - image.nonlocal_uri
+      - ref.ref
+      - myst.header
+      - mystnb.exec
+    html_theme: "sphinx_rtd_theme"
+    epub_show_urls: "footnote"
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
