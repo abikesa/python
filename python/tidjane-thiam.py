@@ -4,14 +4,14 @@ import networkx as nx
 import os
 
 # Ensure the output directory exists
-os.makedirs("images", exist_ok=True)
+# os.makedirs("images", exist_ok=True)
 
 # Define the neural network fractal with updated labels
 def define_layers():
     return {
         'Nonself': [
-            'Household Wealth', 'Firm Records', 'Disclosure Risk', 
-            'Other Governments', 'Accounts/Databases', 'Instruments/Contracts'
+            'Household Wealth', 'Firm Records', 'Other Governments', 'Disclosure Risk', 
+            'Accounts/Databases', 'Instruments/Contracts'
         ],
         'Self': ['Government'],  
         'Conflict': ['Nationalism', 'Faustian Bargain'],  
@@ -73,7 +73,7 @@ def visualize_nn():
     plt.title("Tidjane Thiam", fontsize=24)
 
     # Save image
-    plt.savefig("tidjane-thiam.jpeg", dpi=300, bbox_inches='tight')
+    plt.savefig("../figures/tidjane-thiam.jpeg", dpi=300, bbox_inches='tight')
 
 # Run the visualization
 visualize_nn()
