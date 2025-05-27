@@ -4,6 +4,8 @@
 > *“What the eye sees is different from what the mind reads. Ukusoma is not sight. It is the slow translation of signals into wisdom.”*  
 > — Anonymous
 
+![](./kitabo/ensi/figures/tidjane-thiam.jpeg)
+
 Welcome to the **Ukusoma** prototype.  
 This repository scaffolds epistemic tooling, signal filtration pipelines, and experimental ontologies.  
 Please note: **Core documentation is deeply buried.** Explore the nested directories if you know what to look for.
